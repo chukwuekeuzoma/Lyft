@@ -1,0 +1,101 @@
+
+
+.section-two-container{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section-two-img-container{
+    img{
+        border-top-right-radius: 150px;
+    }
+}
+
+.section-text-container{
+    margin-left: 100px;
+}
+
+.section-text-drive{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: ProximaNova, sans-serif;
+    font-weight: 700;
+}
+.section-text-set{
+    font-size: 36px;
+    line-height: 44px;
+    font-family: LyftProUI, sans-serif;
+    font-weight: 600;
+}
+
+.section-text-maybe{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: ProximaNova, sans-serif;
+    font-weight: 400;
+}
+
+.section-text-icon-container{
+  display: flex !important;
+  align-items: center;
+}
+
+.section-text-icon{
+    margin-left: -32px !important;
+    margin-right: 10px;
+    color: black !important;
+}
+
+.section-text-apply-container{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: 40px;
+
+    .section-text-apply-to-drive{
+        border: none;
+        background:#8B37FF;
+        padding: 15px;
+        border-radius: 50px;
+        width: 120px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: ProximaNova, sans-serif;
+        font-weight: 700;
+        color: white;
+        transition:0.2s;
+    }
+   
+    .section-text-apply-to-drive:hover{
+        background:#631aca;
+    }
+    
+    .section-text-icon-driver-container{
+      display: flex;
+      align-items: center;
+    }
+
+    .section-text-diver-pay-container{
+        margin-left: 50px;
+    }
+
+    .section-how-driver-pay{
+        font-size: 14px;
+        line-height: 18px;
+        font-family: ProximaNova, sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .section-text-icon-arrow{
+        color: black !important;
+        font-size: 20px;
+        font-weight: bolder !important; 
+    }
+
+
+}
