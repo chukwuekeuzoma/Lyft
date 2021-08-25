@@ -21,13 +21,13 @@ export default function SectionOne(props) {
                 </div>
                 <div className="section-one-image-container">
                     <picture>
-                       <source type="image/webp" srcset={LadyFlower}/>
-                       <source srcset={LadyFlower}/>
+                       <source type="image/webp" srcSet={LadyFlower}/>
+                       <source srcSet={LadyFlower}/>
                        <img src={LadyFlower} alt="load" className="lady-flower" height="650" width="500"/>
                     </picture>
                     <picture>
-                       <source type="image/webp" srcset={Driver}/>
-                       <source srcset={Driver}/>
+                       <source type="image/webp" srcSet={Driver}/>
+                       <source srcSet={Driver}/>
                        <img src={Driver} alt="load" className="man-driver" width="500" height="350"/>
                     </picture>
                 </div>

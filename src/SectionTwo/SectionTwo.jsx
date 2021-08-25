@@ -10,8 +10,8 @@ export default function SectionTwo(props) {
             <div className="section-two-container">
                 <div className="section-two-img-container">
                     <picture>
-                        <source type="image/webp" srcset={Ladydriver}/>
-                        <source srcset={Ladydriver}/>
+                        <source type="image/webp" srcSet={Ladydriver}/>
+                        <source srcSet={Ladydriver}/>
                         <img src={Ladydriver} alt="load" className="lady-flower" height="470" width="400"/>
                     </picture>
                 </div>
