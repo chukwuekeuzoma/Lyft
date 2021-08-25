@@ -1,9 +1,21 @@
 import React from 'react';
 import "./Navigation.scss"
 import { Optiondata } from './Optiondata';
-import TextField from '@material-ui/core/TextField';
+import {TextField, Slide, useScrollTrigger} from '@material-ui/core';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { makeStyles } from '@material-ui/core/styles';
+
+
+
+function HideOnScroll(props) {
+    const { children, window} = props;
+    const trigger = useScrollTrigger({ target: window ? window() : undefined });
+    return (
+      <Slide appear={false} direction="down" in={!trigger}>
+        {children}
+      </Slide>
+    );
+  }
 
 
 const useStyles = makeStyles({
@@ -37,6 +49,7 @@ export default function Navigation(props) {
 
     return (
         <>
+         <HideOnScroll {...props}>
             <div className="nav_container">
                 <div className="nav_content-1">
                     <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" viewBox="0 0 72 50" aria-labelledby="lyft-logo" height="40px">
@@ -86,6 +99,7 @@ export default function Navigation(props) {
                     </div>
                 </div>
             </div>
+         </HideOnScroll>
         </>
     );
 }
