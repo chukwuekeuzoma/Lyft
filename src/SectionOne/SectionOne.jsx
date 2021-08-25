@@ -8,28 +8,27 @@ export default function SectionOne(props) {
         <>
             <div className="section-one-container">
                 <div>
-                   <div>
+                   <div className="section-one-text-1">
                        <span>READY WHEN YOU ARE</span>
                    </div>
-                   <div>
+                   <div className="section-one-text-2">
                        <h1>Hop in. Crack a window. Let’s get back out there.</h1>
                    </div>
-                   <div>
-                       <div><span>Apply to drive</span></div>
-                       <div><span>Sign up to ride</span></div>
+                   <div className="section-one-text-3">
+                       <div className="section-one-text-3-text-1"><span>Apply to drive</span></div>
+                       <div className="section-one-text-3-text-2"><span>Sign up to ride</span></div>
                    </div>
                 </div>
-                <div>
+                <div className="section-one-image-container">
                     <picture>
                        <source type="image/webp" srcset={LadyFlower}/>
                        <source srcset={LadyFlower}/>
-                       <img src={LadyFlower} alt="load" className="lady-flower" height="600" width="450"/>
+                       <img src={LadyFlower} alt="load" className="lady-flower" height="650" width="500"/>
                     </picture>
-
                     <picture>
                        <source type="image/webp" srcset={Driver}/>
                        <source srcset={Driver}/>
-                       <img src={Driver} alt="load" className="lady-flower" width="550" height="350"/>
+                       <img src={Driver} alt="load" className="man-driver" width="500" height="350"/>
                     </picture>
                 </div>
             </div>

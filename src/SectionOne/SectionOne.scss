@@ -1,3 +1,84 @@
+
 .section-one-container{
     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-one-text-1{
+    font-family:ProximaNova, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.section-one-text-2{
+    font-size: 40px;
+    line-height: 92px;
+    font-family: LyftProUI, sans-serif;
+    font-weight: 600;
+    margin-top: -30px;
+}
+
+.section-one-text-3{
+    display: flex;
+
+    .section-one-text-3-text-1{
+       border: none;
+       background:#8B37FF;
+       padding: 15px;
+       border-radius: 50px;
+       width: 120px;
+       text-align: center;
+       cursor: pointer;
+       font-size: 16px;
+       line-height: 20px;
+       font-family: ProximaNova, sans-serif;
+       font-weight: 700;
+       color: white;
+       transition:0.2s;
+    }
+    
+    .section-one-text-3-text-1:hover{
+       background:#631aca;
+    }
+
+
+    .section-one-text-3-text-2{
+        margin-left:10px;
+        border: 1px solid rgba(12,11,49,1);
+        text-align: center;
+        padding: 15px;
+        border-radius: 50px;
+        width: 120px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: ProximaNova, sans-serif;
+        font-weight: 700;
+        color:rgba(12,11,49,1);
+        transition:0.2s;
+    }
+
+    .section-one-text-3-text-2:hover{
+        background:rgb(231, 231, 240);
+    }
+
+
+}
+
+.section-one-image-container{
+    position: relative;
+}
+
+
+.man-driver{
+    margin-top: 430px;
+    margin-right:100px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

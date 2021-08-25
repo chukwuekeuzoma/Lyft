@@ -96,6 +96,14 @@ export default function Navigation(props) {
                     </div>
                     <div className="nav-text-container-1">
                         <span className="nav-text-1">SIGN UP</span>
+                        <div className="box">
+                                <div className="box-text-1-container">
+                                    <span className="box-text-1">Sign up to ride</span>
+                                </div>
+                                <div className="box-text-1-container">
+                                    <span className="box-text-1">Apply to drive</span>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
